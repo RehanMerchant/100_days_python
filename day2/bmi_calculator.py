@@ -5,4 +5,4 @@ height = float(height)/100
 
 bmi = float(weight) / (float(height) ** 2)
 
-print(bmi)
+print(round(bmi,2))
